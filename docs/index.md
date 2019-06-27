@@ -45,7 +45,7 @@ brew upgrade ddev
 
 - A windows installer is provided in each [ddev release](https://github.com/drud/ddev/releases) (`ddev_windows_installer.<version>.exe`). Run that and it will do the full installation for you.  Open a new terminal or cmd window and start using ddev.
 - If you use [chocolatey](https://chocolatey.org/) (highly recommended), then you can just `choco install ddev` from an administrative-privileged shell. Upgrades are just `choco upgrade ddev`.
-- (Optional) As a one-time initialization, run `mkcert -install`
+- (Optional) As a one-time initialization, install mkcert `choco install mkcert` and then run `mkcert -install`
 
 
 ### Installation/Upgrade Script - Linux and macOS
